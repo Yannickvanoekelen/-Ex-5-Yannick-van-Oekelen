@@ -23,7 +23,7 @@ var app = express();
 app.use(parser.json());
 
 
-
+//                                              DRONES                                                                //
 //  01 Drones
 // GET requests on /drones
 app.get("/drones", function (request, response) {
@@ -53,8 +53,7 @@ app.post("/drones", function (request, response) {
     response.status(201).location("../drones/"+drone.id).send(); //Respond with the 201 status 'Created' and give back the URL of the created drone.
 });
 
-
-//-------------------------------------------------------------------------------------------------------------------//
+//                                            MEASUREMENTS                                                            //
 // 08 MEASUREMENTS
 // GET requests on /measurements
 app.get("/measurements", function (request, response) {

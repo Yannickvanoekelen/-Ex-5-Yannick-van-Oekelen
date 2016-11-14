@@ -7,7 +7,7 @@
 
 module.exports = {
 
-    // In this project we are using 8 resources //
+    // In this project we are using 8 resources
     // 1 --> DRONES
     // 2 --> BUILDINGS
     // 3 --> SENSORS
@@ -19,7 +19,7 @@ module.exports = {
 
 
 
-    // DRONES
+    // 01 DRONES
     drones : {},
 
     // Create a list of all existing drones
@@ -42,7 +42,7 @@ module.exports = {
     },
 
 
-    // MEASUREMENTS
+    // 08 MEASUREMENTS
     measurements : {},
 
     // Create a list of all existing measurements
